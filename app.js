@@ -15,7 +15,6 @@ app.use(express.urlencoded({ extended: true }));
 
 // setup database
 // eslint-disable-next-line no-undef
-
 console.log('logging', process.env.DB_CONNECTION_STRING);
 
 // eslint-disable-next-line no-undef
