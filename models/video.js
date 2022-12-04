@@ -8,9 +8,12 @@ const videoSchema = new mongoose.Schema({
 		maxLength: 255,
 		trim: true
 	},
-	duration: {
-		type: Number,
-		required: true,
+	description: {
+		type: String,
+		required: false,
+		minLength: 3,
+		maxLength: 500,
+		trim: true
 	}
 });
 
